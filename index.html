@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="css/style.css">
+	<title>Homework 10</title>
+</head>
+
+<body>
+
+	<header class="header">
+
+		<div class="wrapper">
+
+			<a href="#" class="header__logo">
+				Uzbeklar.net
+			</a>
+
+			<nav class="menu">
+				<ul class="menu__list">
+
+					<li class="menu__item">
+						<a href="#" class="menu__link">Фильмы</a>
+					</li>
+
+					<li class="menu__item">
+						<a href="#" class="menu__link">Клипы</a>
+					</li>
+
+					<li class="menu__item">
+						<a href="#" class="menu__link">Музыка</a>
+					</li>
+
+				</ul>
+			</nav>
+
+			<form class="form" action="#">
+
+				<div class="form__line">
+					<div class="form__input-header">
+						<input class="header__input" type="text" placeholder="Поиск...">
+					</div>
+				</div>
+
+			</form>
+
+			<div class="user-nav">
+
+				<a href="#" class="user-nav__link">
+
+					<img class="user-nav__img" src="img/favorites.png" alt="heart">
+
+				</a>
+
+				<span class="user-nav__profile"></span>
+
+			</div>
+
+		</div>
+
+	</header>
+
+	<main class="main">
+
+		<div class="wrapper">
+
+			<div class="password">
+
+				<span class="password__location">Восстановление пароля</span>
+
+				<h2 id="password" class="password__title">
+					Восстановление пароля
+				</h2>
+
+				<div class="container">
+
+					<form action="#" class="form__password">
+
+						<div class="form__password-line">
+							<div class="form__password-input">
+								<label for="">Введите Email, на него будет выслан новый пароль</label>
+								<input class="input" type="email" name="email" placeholder="Почта*" required>
+							</div>
+						</div>
+
+						<a href="#" class="form__password-link">
+							Вернуться в форму авторизации
+						</a>
+
+						<button class="form__password-button" type="submit">Отправить</button>
+
+					</form>
+
+					<p class="form__password-text">
+						* Если вы не получили письмо с паролем,проверьте папку Спам.
+					</p>
+
+					<span>У вас нет аккаунта?</span>
+
+					<a class="password-link__registration" href="#registration">Регистрация</a>
+
+				</div>
+
+			</div>
+
+			<div class="enter">
+
+				<span id="enter" class="enter__location">Вход</span>
+
+				<h2 class="enter__title">
+					Вход
+				</h2>
+
+				<div class="container">
+
+					<form action="#" class="form__enter">
+
+						<div class="form__enter-line">
+							<div class="form__enter-input">
+								<input class="input" type="email" name="email" placeholder="Почта*" required>
+							</div>
+						</div>
+
+						<div class="form__enter-line">
+							<div class="form__enter-input">
+								<input class="input" type="password" name="email" placeholder="Пароль*" required>
+							</div>
+						</div>
+
+						<div class="form__enter-line">
+							<div class="form__enter-input">
+								<input class="input__checkbox" id="checkbox" type="checkbox" name="checkbox"
+									placeholder="Почта*">
+								<label class="label__checkbox" for="checkbox">Запомнить меня</label>
+								<a href="#password" class="form__enter-link">Забыли пароль?</a>
+							</div>
+						</div>
+
+						<button class="form__enter-button" type="submit">Войти</button>
+
+					</form>
+
+					<div class="enter__social">
+
+						<span>Войти через:</span>
+
+						<div class="enter__social">
+
+							<a href="#" class="enter__social-link">
+								<img src="img/vk.png" alt="vk" class="enter__social-img">
+							</a>
+
+							<a href="#" class="enter__social-link">
+								<img src="img/facebook.png" alt="facebook" class="enter__social-img">
+							</a>
+
+							<a href="#" class="enter__social-link">
+								<img src="img/odnoklassniki.png" alt="odnoklassniki" class="enter__social-img">
+							</a>
+
+						</div>
+					</div>
+
+					<span>У вас нет аккаунта?</span>
+
+					<a class="enter-link__registration" href="#">Регистрация</a>
+
+				</div>
+
+			</div>
+
+			<div class="registration">
+
+				<span class="registration__location">Регистрация</span>
+
+				<h2 id="registration" class="registration__title">
+					Регистрация
+				</h2>
+
+				<div class="container">
+
+					<form action="#" class="form__registration">
+
+						<div class="form__registration-line">
+							<div class="form__registration-input">
+								<input class="input" type="text" name="name" placeholder="Имя*" required>
+							</div>
+						</div>
+
+						<div class="form__registration-line">
+							<div class="form__registration-input">
+								<input class="input" type="text" name="second-name" placeholder="Фамилия*" required>
+							</div>
+						</div>
+
+						<div class="form__registration-line">
+							<div class="form__registration-input">
+								<input class="input" type="text" name="login" placeholder="Логин*" required>
+							</div>
+						</div>
+
+						<div class="form__registration-line">
+							<div class="form__registration-input">
+								<input class="input" type="email" name="email" placeholder="EMail*" required>
+							</div>
+						</div>
+
+						<div class="form__registration-line">
+							<div class="form__registration-input">
+								<input class="input" type="password" name="password" placeholder="Пароль*" required>
+							</div>
+						</div>
+
+						<div class="form__registration-line">
+							<div class="form__registration-input">
+								<input class="input" type="password" name="password" placeholder="Повторите пароль*" required>
+							</div>
+						</div>
+
+						<div class="form__registration-line">
+							<div class="form__registration-input">
+								<div class="checkbox">
+									<input class="input-registration" type="radio" name="choice" id="man">
+									<label class="form__registration-label form__registration-label--m" for="man">Мужчина</label>
+								</div>
+							</div>
+
+							<div class="form__registration-input">
+								<div class="checkbox">
+									<input class="input-registration" type="radio" name="choice" id="girl">
+									<label class="form__registration-label form__registration-label--g" for="girl">Женщина</label>
+								</div>
+							</div>
+						</div>
+
+						<div class="form__registration-line">
+							<div class="form__registration-input">
+								<input class="input__checkbox" id="checkbox-registration" type="checkbox" name="checkbox"
+									placeholder="Почта*" checked>
+								<label class="label__checkbox" for="checkbox-registration">Я согласен с</label>
+								<a href="#" class="form__registration-link">Условия и правила</a>
+							</div>
+						</div>
+
+						<button class="form__registration-button" type="submit">Регистрация</button>
+
+					</form>
+
+					<span>У вас есть аккаунт?</span>
+
+					<a class="registration-link__registration" href="#enter">Войти</a>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</main>
+
+	<footer class="footer">
+
+		<div class="wrapper">
+
+			<span class="footer__subtitle">Присоединиться:</span>
+
+			<div class="footer__social">
+
+				<a href="#" class="social__link">
+					<img src="img/twitter.png" alt="twitter" class="social__img">
+				</a>
+
+				<a href="#" class="social__link">
+					<img src="img/vk.png" alt="vk" class="social__img">
+				</a>
+
+				<a href="#" class="social__link">
+					<img src="img/facebook.png" alt="facebook" class="social__img">
+				</a>
+
+				<a href="#" class="social__link">
+					<img src="img/instagram.png" alt="instagram" class="social__img">
+				</a>
+
+				<a href="#" class="social__link">
+					<img src="img/youtube.png" alt="youtube" class="social__img">
+				</a>
+
+				<a href="#" class="social__link">
+					<img src="img/odnoklassniki.png" alt="odnoklassniki" class="social__img">
+				</a>
+
+			</div>
+
+			<div class="footer__info">
+				<a href="#" class="info__link">О нас</a>
+				<a href="#" class="info__link">Вопросы и ответы</a>
+				<span>+38-067-982-81-22</span>
+				<span>+38-067-982-81-22</span>
+			</div>
+
+		</div>
+
+
+	</footer>
+
+</body>
+
+</html>
